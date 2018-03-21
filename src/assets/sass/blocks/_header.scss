@@ -1,0 +1,31 @@
+.header{
+	background-color: $grey;
+	color: $dark;
+	padding: 45px 0 65px;
+	&-logo{
+		width: 100px;
+		height: 100px;
+		background-color: $dark;
+	}
+	&-box{
+		margin-left: 15px;
+		&__heading{
+			font-weight: bold;
+			font-size: 2.5rem;
+			line-height: 1;
+		}
+		&__subtitle{
+			font-size: 1.5rem;
+		}
+	}
+	&-contacts{
+		&__number{
+			font-size: 3rem;
+		}
+	}
+}
+.name-company{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

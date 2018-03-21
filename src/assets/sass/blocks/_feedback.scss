@@ -1,0 +1,95 @@
+.feedback-bg{
+	 background-color:rgba(0,0,0,.3);
+    height:100%;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 5;
+    display: none;
+}
+.feed-open{
+	display: block;
+}
+.feedback{
+	top: 50%;
+	margin-top: -290px;
+	position: fixed;
+	z-index: 6;
+	text-align: center;
+	width: 460px;
+	left: 50%;
+	margin-left: -230px;
+	background-color: #fff;
+	&-heading{
+		margin: 35px 0;
+		font-size: 3rem;
+		color: #545454;
+		text-transform: uppercase;
+	}
+	&-text{
+		color: #545454;
+		margin-bottom: 8px;
+	}
+	&-close{
+		position: absolute;
+		right: -27px;
+		top: -27px;
+		cursor: pointer;
+	}
+}
+
+#zayavkaName, #applicationEmail, #applicationTelephone {
+    width: 340px;
+    height: 40px;
+    background: none;
+    border: 1px solid #c1c1c1;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 1.5rem;
+    outline:none;
+    position: relative;
+    &:invalid{
+    	border: 1px solid #e48282;
+		width: 80%;
+	    max-width: 550px;
+	    padding: 1em;
+	    box-shadow: 0 0 40px rgba(228, 130, 130, 0.3) inset; 
+    }
+    &:valid{
+    	border: 1px solid green;
+		width: 80%;
+	    max-width: 550px;
+	    padding: 1em;
+	    box-shadow: none; 
+    }
+}
+
+#applicationMessage{
+	width: 340px;
+    height: 140px;
+    background: none;
+    border: 1px solid #c1c1c1;
+    border-radius: 1px;
+    font-size: 1.5rem;
+}
+
+.zayavkaName:focus, #applicationEmail:focus, #applicationTelephone:focus {
+    
+}
+
+.applicationButton{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	background-color: $dark;
+	border: none;
+	color: $white;
+	text-transform: uppercase;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+

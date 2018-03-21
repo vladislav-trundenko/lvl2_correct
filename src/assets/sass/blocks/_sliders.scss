@@ -1,0 +1,19 @@
+.slider{
+	background-color: #f7f7f7;
+}
+.carousel-control-prev{
+	width: 30%;
+	&-icon{
+	background-image: url("../img/arrow-left.png");
+	width: 35px;
+	height: 60px;
+	}
+}
+.carousel-control-next{
+	width: 30%;
+	&-icon{
+	background-image: url("../img/arrow-right.png");
+	width: 35px;
+	height: 60px;
+	}
+}

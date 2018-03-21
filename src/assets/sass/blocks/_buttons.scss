@@ -1,0 +1,13 @@
+.feedback-button{
+	font-size: 1.85rem;
+	font-weight: bold;
+	border-bottom: 2px dashed $dark;
+	cursor: pointer;
+	display: inline-block;
+}
+.btn-correct{
+	background-color: #fff;
+	color: $black;
+	line-height: 1;
+	display: inline-block;
+}

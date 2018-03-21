@@ -1,0 +1,173 @@
+@media (max-width: 767px){
+	html{
+    font-size: 8px;
+    position: relative;
+}
+body{
+    margin: 0;
+    background-color: $white;
+    color: $black;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+a{
+	color: $white;				
+}
+.nav{
+	&-bar{
+		display: none;
+	}
+	&-middle{
+	 display: none;
+	}
+}
+
+.d-block{
+	height: 150px;
+}
+.carousel-control-prev{
+	&-icon{
+	width: 18px;
+	height: 30px;
+	}
+}
+.carousel-control-next{
+	&-icon{
+	width: 18px;
+	height: 30px;
+	}
+}
+
+.pricelist{
+	display: none;
+}
+
+.nav-content{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+.nav-middle{
+	margin-bottom: 10px;
+}	
+
+.products{
+	justify-content: center;
+}
+.footer{
+	&-nav{
+		margin: 15px 0;
+	}
+}
+.feedback{
+	top: 50%;
+	margin-top: -290px;
+	position: fixed;
+	z-index: 6;
+	text-align: center;
+	width:360px;
+	left: 50%;
+	margin-left: -180px;
+	background-color: #fff;
+	&-close{
+		position: absolute;
+		right: 5px;
+		top: 5px;
+		cursor: pointer;
+	}
+}
+.mobile{
+	display: block;
+}
+.dropdown-menu, .fontsize{
+	font-size: 2.3rem;
+}
+.btn-secondary{
+	background-color: #545b62;
+	border-radius: 6px;
+}
+.btn-margin{
+	margin-bottom: 5px;
+	display: block;
+}
+.product-title{
+	display: block;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.nav{
+	&-bar{
+		&__item{
+			border-left: none;
+			line-height: 2;
+			a{
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+.d-block{
+	height: 250px;
+}
+.carousel-control-prev{
+	&-icon{
+	width: 25px;
+	height: 40px;
+	}
+}
+.carousel-control-next{
+	&-icon{
+		width: 25px;
+	height: 40px;
+	}
+}
+.products{
+	justify-content: center;
+}
+.pricelist{
+	display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.nav{
+	&-bar{
+		&__item{
+			border-left: none;
+			line-height: 2;
+			a{
+				font-size: 2rem;
+			}
+		}
+	}
+}
+.d-block{
+	height: 300px;
+}
+.carousel-control-prev{
+	&-icon{
+	width: 25px;
+	height: 40px;
+	}
+}
+.carousel-control-next{
+	&-icon{
+		width: 25px;
+	height: 40px;
+	}
+}
+.products{
+	justify-content: center;
+}
+
+
+
+}

@@ -1,0 +1,10 @@
+.pricelist{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 110px;
+	&__title{
+		color: $price;
+		font-size: 2.7rem;
+	}
+}

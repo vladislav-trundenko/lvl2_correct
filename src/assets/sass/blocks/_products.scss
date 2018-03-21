@@ -1,0 +1,31 @@
+.products{
+	display: flex;
+	flex-wrap: wrap;
+	&-box{
+		width: 250px;
+		padding: 20px 20px 12px 20px;
+		background-color: $grey;
+		margin-left: 15px;
+		margin-bottom: 20px;
+		&__title{
+			color: $dark;
+			line-height: 22px;
+			margin: 20px 0 40px 0;
+			font-weight: 400;
+			font-size: 1.8rem;
+		}
+		&__price{
+			color: $price;
+			font-weight: bold;
+			font-size: 2.6rem;
+			display: inline-block;
+			padding-bottom: 0;
+		}
+		&__basket{
+			margin-left: 65px;
+		}
+	}
+}
+.product-title{
+	display: none;
+}
